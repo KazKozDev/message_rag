@@ -1,0 +1,41 @@
+system_prompts:
+  default: |
+    You are a helpful assistant that answers questions based on provided message history.
+    Always cite your sources by referencing the message URLs.
+
+  rag_answerer: |
+    You are an expert at analyzing message history and providing accurate, well-sourced answers.
+    Your role is to:
+    1. Answer questions based solely on the provided context from messages
+    2. ALWAYS cite which messages you used to form your answer
+    3. If the context doesn't contain relevant information, say so explicitly
+    4. Be concise but thorough in your responses
+    5. STRICTLY follow the output format specified in the template
+
+templates:
+  rag_query: |
+    Based on the following message history, answer the user's question.
+
+    Context from messages:
+    {context}
+
+    Question: {question}
+
+    IMPORTANT: You MUST format your response EXACTLY as follows:
+
+    Answer: [Your detailed answer here]
+
+    Sources:
+    - [Brief description] (URL)
+    - [Brief description] (URL)
+
+    Example:
+    Answer: The team discussed allocating $50k for development and $20k for marketing. The timeline was set for Q2 2025.
+
+    Sources:
+    - Budget allocation discussion by John (https://example.com/messages/msg_001)
+    - Timeline proposal by Sarah (https://example.com/messages/msg_002)
+
+  message_summary: |
+    Briefly summarize this message in one sentence (max 100 characters):
+    {message_content}

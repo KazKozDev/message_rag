@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.local
+
+# Cache
+data/cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Outputs
+data/outputs/*.log
+data/outputs/*.json
+
+# Embeddings
+data/embeddings/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Dependencies
+requirements_check.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.egg-info/
+dist/
+build/
+*.egg

@@ -1,0 +1,68 @@
+[
+  {
+    "message_id": "msg_001",
+    "url": "https://example.com/messages/msg_001",
+    "author": "John Doe",
+    "timestamp": "2025-01-15T10:30:00Z",
+    "content": "We need to finalize the budget allocation for Q2 2025. I propose allocating $50,000 for development and $20,000 for marketing initiatives.",
+    "metadata": {
+      "channel": "planning",
+      "tags": ["budget", "important"]
+    }
+  },
+  {
+    "message_id": "msg_002",
+    "url": "https://example.com/messages/msg_002",
+    "author": "Sarah Chen",
+    "timestamp": "2025-01-15T11:15:00Z",
+    "content": "Regarding the timeline, I suggest we aim to complete the development phase by end of Q2 2025, which gives us three months.",
+    "metadata": {
+      "channel": "planning",
+      "tags": ["timeline", "development"]
+    }
+  },
+  {
+    "message_id": "msg_003",
+    "url": "https://example.com/messages/msg_003",
+    "author": "Mike Rodriguez",
+    "timestamp": "2025-01-15T14:20:00Z",
+    "content": "The new authentication system is ready for testing. It includes OAuth2 support and multi-factor authentication. Please review the PR.",
+    "metadata": {
+      "channel": "engineering",
+      "tags": ["security", "authentication"]
+    }
+  },
+  {
+    "message_id": "msg_004",
+    "url": "https://example.com/messages/msg_004",
+    "author": "Emily Watson",
+    "timestamp": "2025-01-16T09:00:00Z",
+    "content": "User feedback shows that the onboarding process is too complex. We should simplify it to 3 steps maximum.",
+    "metadata": {
+      "channel": "product",
+      "tags": ["ux", "feedback"]
+    }
+  },
+  {
+    "message_id": "msg_005",
+    "url": "https://example.com/messages/msg_005",
+    "author": "David Kim",
+    "timestamp": "2025-01-16T13:45:00Z",
+    "content": "Performance metrics from last week: average response time decreased to 180ms, and we hit 99.9% uptime. Great improvement!",
+    "metadata": {
+      "channel": "engineering",
+      "tags": ["performance", "metrics"]
+    }
+  },
+  {
+    "message_id": "msg_006",
+    "url": "https://example.com/messages/msg_006",
+    "author": "Lisa Anderson",
+    "timestamp": "2025-01-17T10:30:00Z",
+    "content": "Marketing campaign results: 15% increase in user signups and 22% improvement in conversion rate compared to last quarter.",
+    "metadata": {
+      "channel": "marketing",
+      "tags": ["metrics", "campaign"]
+    }
+  }
+]
