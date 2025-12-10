@@ -68,7 +68,7 @@ python -m src.cli clear
 ## Config
 
 Edit [config/model_config.yaml](config/model_config.yaml):
-- `model_name`: claude-sonnet-4-5 | gpt-4
+- `model_name`: claude-sonnet-4-5
 - `temperature`: 0.0-1.0
 - `max_tokens`: up to 4096
 - `top_k`: number of messages to retrieve
