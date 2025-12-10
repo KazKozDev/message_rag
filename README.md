@@ -2,6 +2,11 @@
 
 RAG system that processes messages and answers questions with source attribution.
 
+![Untitledfo](https://github.com/user-attachments/assets/fabbf186-bf85-4b85-a2de-af1c2ecc15b8)
+
+<img width="1892" height="1043" alt="Screenshot 2025-12-10 at 15 45 36" src="https://github.com/user-attachments/assets/4a31b448-1b1e-44e6-a4d1-2c2a35de59d3" />
+
+
 ## Install
 
 ```bash
